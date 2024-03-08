@@ -1,0 +1,13 @@
+json
+os
+sqlalchemy
+random
+
+sqlalchemy.orm import declarative_base, relationship, sessionmaker
+sqlalchemy.orm import Session
+sqlalchemy import func
+sqlalchemy import and_
+
+telebot import types, TeleBot, custom_filters
+telebot.storage import StateMemoryStorage
+telebot.handler_backends import State, StatesGroup
